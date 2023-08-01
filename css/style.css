@@ -1,0 +1,46 @@
+/*
+
+Project Name: Feelawful
+Client: Feelawful
+Author: jer@feelawful.com
+Developed @ Feelawful Tech
+
+*/
+
+body {
+	background: url('../images/Feelawful_chef.jpg');
+	/*background: url('../images/Feelawful_chef.jpg');*/
+	/* the follow is the code to have the image display as
+	aligned right image */
+	background-position: center;
+	background-size: 20px;
+	background-attachment: scroll;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 200px;
+}
+
+#container {
+		margin: auto;
+		background-color: brown;
+		width: 424px;
+		color: white;
+		padding: 15px;
+	}
+h1 {
+		font-size: 80px;
+}
+
+h2{
+	background: #fe0002;
+	font-family: Agdasima;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #fe0002;
+	text-decoration: none;
+}
